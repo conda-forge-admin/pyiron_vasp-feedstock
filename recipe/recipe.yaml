@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyiron_vasp
-  version: "0.2.18"
+  version: "0.2.19"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: ac639d7b254151b331ac43324b15223488c7640563b4aefc9de921b7a49625a9
+  sha256: 6bca9f54576cebec7a2a264d737b84c21feb7e6007ec4ad34beb88a7a1372c38
 
 build:
   number: 0
